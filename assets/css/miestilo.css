@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@1,400;1,600&family=Roboto:wght@400;500&display=swap');
+*{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+  
+}
+
+/* cambiando tamaño de imagen */
+.imagen_carrusel{
+    width: 100%;
+    height: 700px;
+}
+/* seccion principal */
+ main{
+    background-color:grey;
+ }
+
+ /* seccion quienes somos */
+.quienes_somos{
+    padding: 10px;
+    
+    
+    
+ } 
+ .navbar-nav li.nav-item a:hover{
+    color: #130454;
+ }
+ .texto{
+    text-align: justify;
+    padding: 10px;
+ }
+ .container{
+    gap: 50px;
+ }
+.iconos{
+    background-color: #05108d;
+    margin: 10px;
+    
+}
+
+
+/* seccion cards */
+
+.destacados{
+    padding: 90px  90px;
+}
+.imagen_cards{
+    
+    height: 200px;
+    
+}
+.card-body{
+    background-color: #01063e;
+    
+}
+ /* seccion formulario */
+.contacto{
+    
+    padding: 80px;
+}
+
+.boton_enviar{
+    background-color: #130149 ;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+/*  seccion de footer */
+footer{
+    background-color: #130454;
+    padding: 20px;
+    text-align: center;
+
+    
+    
+}
