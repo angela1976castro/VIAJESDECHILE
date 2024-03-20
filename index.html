@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes Chile</title>
+
+    <!-- CONECTANDO  BOOTSTRAP  CON CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- CONECTANDO CON MI CSS -->
+    <link rel="stylesheet" href="assets/css/miestilo.css" />
+
+    <!-- CONECTANDO BOOSTRAP CON LOCAL
+    <link rel="stylesheet" href="assets/css/bootstrap-5.3.0-alpha1-dist/css/bootstrap.css"> -->
+
+    <!-- CONECTANDO TIPOS DE LETRAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- INSERTANDO ICONOS FAVICON -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/viajes.svg"
+      type="image/x-icon"
+    />
+
+    <!-- CONECTANDO ICONOS PARA REDES SOCIALES awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    
+    <main>
+      <!-- AGREGANDO NAV DESDE BOOSTRAP -->
+      <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="assets/img/viajes.svg"
+              width="100px"
+              height="70px"
+              alt=""
+          /></a>
+          <button
+            class="navbar-toggler navbar-dark border-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#QUIENES SOMOS"
+                  >QUIENES SOMOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#DESTACADOS">DESTACADOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#CONTACTO">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- AGREGANDO CARRUSEL DESDE BOOSTRAP -->
+
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/img/carousel1.jpg"
+              class="d-block w-100 imagen_carrusel"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel2.jpg"
+              class="d-block w-100 imagen_carrusel"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/img/carousel3.jpg"
+              class="d-block w-100 imagen_carrusel"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br />
+      <!-- AGREGANDO INFORMACIÓN QUIENES SOMOS -->
+      <section class="container text-center " id="QUIENES SOMOS">
+        <div>
+          <h2 class="text-white">¿QUIÉNES SOMOS?</h2>
+        </div>
+        <br />
+
+        <div class="col-sm-12 col-lg 4 my-3 d-flex py-3">
+          <article>
+            <div class="iconos">
+              <i class="fa-solid fa-plane fa-2x text-white"></i>
+            </div>
+
+            <p class="texto text-white">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+              debitis quos modi explicabo repellat quibusdam esse perferendis
+              odio dolorum voluptatum. In mollitia unde quisquam veritatis
+              exercitationem voluptas rem suscipit corporis. ipsum dolor sit
+              amet, consectetur adipiscing elit. Etiam a mauris id purus blandit
+              dapibus.
+            </p>
+          </article>
+
+          <article>
+            <p class="texto text-white">
+              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Adipisci iste eius nam animi autem placeat. Aperiam, odio. Omnis
+              maxime, dignissimos quaerat nemo quibusdam aliquam, excepturi
+              voluptates debitis necessitatibus, adipisci sint. ipsum dolor sit
+              amet, consectetur adipiscing elit. Etiam a mauris id purus blandit
+              dapibus.
+            </p>
+            <div class="iconos">
+              <i class="fa-solid fa-mountain fa-2x text-white"></i>
+            </div>
+          </article>
+
+          <article>
+            <div class="iconos">
+              <i class="fa-solid fa-route fa fa-2x text-white"></i>
+            </div>
+
+            <p class="texto text-white">
+              Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae alias delectus commodi. Accusamus voluptatem inventore
+              rerum. Incidunt, non eligendi temporibus culpa, voluptates labore,
+              cupiditate ad esse velit necessitatibus facere illum. ipsum dolor
+              sit amet, consectetur adipiscing elit. Etiam a mauris id purus
+              blandit dapibus.
+            </p>
+          </article>
+        </div>
+      </section>
+      <br />
+      <!-- AGREGANDO card para informacion de destacados -->
+
+      <h2 id="DESTACADOS" class="text-center text-white">DESTACADOS</h2>
+
+      <section class="destacados">
+        <div class="row row-cols-1 row-cols-md-4">
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card-text text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                class="imagen_cards"
+                src="assets/img/card4.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="card- text-white">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FORMULARIO DE CONTACTO -->
+      <section class="contacto" id="CONTACTO">
+        <form class="text-white">
+          <h2 class="text-center">CONTACTO</h2>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input
+              placeholder=""
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Asunto</label>
+            <input
+              placeholder=""
+              class="form-control"
+              id="exampleInputPassword1"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label"> Mensaje</label>
+            <textarea class="form-control" id="floatingTextarea2" style="height: 300px"></textarea>
+        </div>
+
+          <button type="submit" class="btn btn-primary boton_enviar">
+            Enviar
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Agregando footer -->
+    <footer>
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-sm-6 col-md-8 my-3">
+            <h3>VIAJES CHILE</h3>
+          </div>
+          <!-- ICONOS Y LINKS REDES SOCIALES -->
+          <div class="col-sm-12 col-lg 4 my-3">
+            <a href="https://github.com/">
+              <i data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Github" class="fa-brands fa-github fa-3x text-white"></i
+            ></a>
+
+            <a href="https://cl.linkedin.com/"
+              ><i data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Linkedin" class="fa-brands fa-linkedin fa-3x text-white"></i
+            ></a>
+
+            <a href="https://twitter.com"
+              ><i  data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Twitter"class="fa-brands fa-square-twitter fa-3x text-white"></i
+            ></a>
+            <a href="https://facebook.com/"
+              ><i  data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip"
+              data-bs-title="Facebook"class="fa-brands fa-square-facebook fa-3x text-white"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- SCRIP BOOSTRAP LOCAL -->
+    <!-- <script src="assets/css/bootstrap-5.3.0-alpha1-dist/js/bootstrap.js"></script> -->
+
+    <!-- CONECTANDO SCRIPT  DEL CDN BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+
+    ></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
